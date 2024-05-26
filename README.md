@@ -5,3 +5,11 @@ The goal of this portfolio is to showcase my skills, knowledge, passion, and wha
 
 ## Site map
 ![alt text](<Images-documentation/Sitemap for website.JPG>)
+
+## Functionality and features
+
+### navigation bar
+This feature  guides users through the website via clickable links such as About, Portfolio, Blog and Contact me pages, A responsive design was added to ensure accessibility on all devices, optimizing user experience and site navigation.
+
+### Hero image
+ A hero image was added on the front page to grab the visitors attention, communicate key messages and encourage users engagement and exploration.
