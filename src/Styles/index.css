@@ -3,13 +3,96 @@
     padding: 0;
 }
 
-/* ***************Mobile Navigation******************* */
 
-#hamburger-nav > div.logo {
+/*****************************************
+*                 Body                   *
+*****************************************/
+
+body {
+    margin: 0;
+    background-color: #f2f6f4;
+    font-family: sans-serif;
+}
+
+
+/*****************************************
+*                header                  *
+*****************************************/
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+/*****************************************
+*                 hero                   *
+*****************************************/
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text styles */
+    text-align: center;
+    color:  #f2f6f4;
+
+    /* background styles */
+    background-image: url('/images-src-code/heroimg.jpg') ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    color:  #f2f6f4;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color:  #f2f6f4;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid  #f2f6f4;
+
+    /* Border styles */
+    border: 3px solid  #f2f6f4;
+    border-radius: 20px;
+}
+
+/*****************************************
+*          mobile navigation             *
+*****************************************/
+
+
+#hamburger-nav>div.logo {
     font-size: 2rem;
 }
 
-#hamburger-nav{
+#hamburger-nav {
     display: flex;
     justify-content: space-evenly;
     margin: 32px;
@@ -36,7 +119,7 @@
     transition: all 0.3 ease-in-out;
 }
 
- .menu-links {
+.menu-links {
     position: absolute;
     top: 100%;
     right: 0;
@@ -44,7 +127,7 @@
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out; 
+    transition: all 0.3 ease-in-out;
 }
 
 .menu-links a {
@@ -61,38 +144,47 @@
     list-style: none;
 }
 
-.menu-links.open{
+.menu-links.open {
     max-height: 300px;
+    background-color: #f2f6f4;
+
 }
 
 .hamburger-icon.open span:first-child {
-    transform: rotate(45deg)translate(10px,5px);
+    transform: rotate(45deg)translate(10px, 5px);
 }
+
 .hamburger-icon.open span:nth-child(2) {
     opacity: 0;
 }
+
 .hamburger-icon.open span:last-child {
-    transform: rotate(-45deg)translate(10px,-5px);
+    transform: rotate(-45deg)translate(10px, -5px);
 }
 
 .hamburger-icon span:first-child {
-    transform:none;
+    transform: none;
 }
 
 .hamburger-icon span:first-child {
-   opacity: 1;
+    opacity: 1;
 }
+
 .hamburger-icon span:first-child {
-    transform:none;
-} 
+    transform: none;
+}
 
 
-/* ****************Desktop-Navigation**************************** */
-#desktop-nav{
+/*****************************************
+*          desktop navigation            *
+*****************************************/
+
+#desktop-nav {
     display: none;
 }
 
-nav, .nav-links {
+nav,
+.nav-links {
     display: flex;
 }
 
@@ -102,7 +194,7 @@ nav {
     height: 17vh;
 }
 
-.nav-links{
+.nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
@@ -114,7 +206,7 @@ a {
     text-decoration-color: white;
 }
 
-a:hover{
+a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -128,8 +220,11 @@ a:hover{
 
 
 
-/****************** Footer **************/
-.footer-group-container{
+/*****************************************
+*                Footer                  *
+*****************************************/
+
+.footer-group-container {
     display: block;
     padding: 0 36px;
 }
@@ -141,11 +236,11 @@ a:hover{
     margin-bottom: 10px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-/*******************Footer line******************** */
+
 footer {
     height: 26vh;
     margin: 0 1rem;
@@ -166,12 +261,16 @@ footer p {
     text-align: center;
 }
 
-/* **********MEDIA QUERIE*************** */
+/*****************************************
+*             media querie               *
+*****************************************/
 
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 750px) {
     #desktop-nav {
         display: flex;
     }
+
     #hamburger-nav {
         display: none;
     }
@@ -182,7 +281,7 @@ footer p {
         align-items: flex-start;
         justify-content: space-evenly;
 
-}
+    }
 
     footer p {
         padding-top: 50px;

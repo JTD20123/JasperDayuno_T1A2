@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/Styles/index.css">
 </head>
+
 <body>
     <header>
         <nav id="hamburger-nav">
-            <div class="logo"> Jasper Dayuno</div>
+            <div class="logo">
+                <a href="">
+                    <img src="./images-src-code/signiture1.png" alt="logo">
+                </a>
+            </div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -20,25 +26,38 @@
                     <li><a href="#about" onclick="toggleMenu()">about</a></li>
                     <li><a href="#portfolio" onclick="toggleMenu()">portfolio</a></li>
                     <li><a href="#blog" onclick="toggleMenu()">blog</a></li>
-                    <li><a href="#contact me" onclick="toggleMenu()">contact me</a></li>
+                    <li><a href="#contact me" onclick="toggleMenu()">Contact Me</a></li>
                 </div>
             </div>
         </nav>
         <nav id="desktop-nav">
-            <div class="logo">Jasper Dayuno</div>
+            <div class="logo">
+                <a href="">
+                    <img src="./images-src-code/signiture1.png" alt="logo">
+                </a>
+            </div>
             <div>
                 <ul class="nav-links">
                     <li><a href="#About">About</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
                     <li><a href="#Blog">Blog</a></li>
-                    <li><a href="#Contact me">Contact me</a></li>
+                    <li><a href="#Contact me">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
 
     </header>
+    
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Jasper Dayuno</h1>
+            <h2>Information about me</h2>
+            <a href="https://example.com/" class="btn">RESUME</a>
+        </div>
+    </section>
     <main>
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nibh molestie, efficitur leo sed, viverra nunc. Donec vehicula accumsan erat facilisis ullamcorper. Donec commodo quis dui nec placerat. Donec mi orci, scelerisque eget nisl ac, hendrerit condimentum odio. Nam dictum odio eget quam tempus, a mattis odio ornare. Nullam auctor libero ut libero suscipit, ut accumsan nunc condimentum. Donec ullamcorper maximus sapien quis egestas.</p>
+        
     </main>
     <footer>
         <nav class="footer-group-container">
@@ -49,7 +68,7 @@
                     <li><a href="#About">About</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
                     <li><a href="#Blog">Blog</a></li>
-                    <li><a href="#Contact me">Contact me</a></li>
+                    <li><a href="#Contact me">Contact Me</a></li>
                 </ul>
             </div>
             <div class="footer-item">
@@ -57,14 +76,15 @@
                 <div aria-hidden="true" class="footer-line"></div>
                 <ul>
                     <li><a href="#Github">Github</a></li>
-                    <li><a href="#linkedin">linkedin</a></li>
+                    <li><a href="#linkedin">LinkedIn</a></li>
                 </ul>
             </div>
         </nav>
         <div class="copyright">
-            <p>Copyright &#169; 2023 Jasper Dayuno. All Rights reserved. </p>
+            <p>Copyright &#169; 2023 Jasper Dayuno. All Rights Reserved. </p>
         </div>
     </footer>
     <script src="./src/Js/script.js"></script>
 </body>
+
 </html>
