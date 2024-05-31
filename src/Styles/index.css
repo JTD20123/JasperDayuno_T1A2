@@ -40,7 +40,6 @@ body {
 #hamburger-nav {
     display: flex;
     justify-content: space-evenly;
-    margin: 32px;
     background-color: #919899;
 }
 
@@ -157,7 +156,7 @@ a {
 a:hover {
     color: grey;
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.5rem;
 }
 
 .logo {
@@ -169,56 +168,73 @@ a:hover {
 /*****************************************
 *                Footer                  *
 *****************************************/
-
-footer {
-    background-color:#919899;
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
-.footer-group-container {
-    display: block;
-    padding: 0 36px;
+.row {
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-item a {
-    display: block;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 ul {
     list-style: none;
 }
 
-
-footer {
-    height: 26vh;
-    padding: 72px;
+.footer {
+    padding: 24px;
 }
 
+.footer-col {
+    width: 100%;
+    padding: 25px 15px;
+}
 
-.footer-line {
-    width: 200px;
+.footer-col h4 {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: black;
     height: 2px;
-    background: black;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    box-sizing: border-box;
+    width: 150px;
 }
 
-.footer-item p {
-    display: block;
-    text-decoration: none;
-    margin-top: 10px;
+.footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
 
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
 
+}
+
+.footer-col ul li a:hover {
+    color: grey;
+    padding-left: 8px;
+}
 
 .copyright p {
-    padding-top: 250px;
-    margin: 50px;
+    padding: 80px;
     text-align: center;
 }
+
 
 /*****************************************
 *             media querie               *
@@ -228,7 +244,7 @@ footer {
 @media screen and (min-width: 750px) {
     #desktop-nav {
         display: flex;
-        background-color:#919899;
+        background-color: #919899;
     }
 
     #hamburger-nav {
@@ -243,20 +259,17 @@ footer {
 
     }
 
-    .footer-group-container {
+    .row {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
         justify-content: space-evenly;
-
+        gap: 300px;
     }
 
     .copyright p {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 80px;
         text-align: center;
     }
 
 
 }
-
