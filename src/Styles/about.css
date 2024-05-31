@@ -1,15 +1,21 @@
-.grid-container {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
-.grid-items {
-    background-color: white;
-    border: 1px solid red;
-    padding: 24px;
+.about-items img {
+    width: 400px;
+    text-align: center;
     border-radius: 8px;
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
+}
+
+.about-items p {
+    padding: 0 100px;
+}
+
+.about-items h2 {
+    text-align: center;
 }

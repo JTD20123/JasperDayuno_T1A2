@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -31,6 +31,8 @@ body {
 *****************************************/
 
 
+
+
 #hamburger-nav>div.logo {
     font-size: 2rem;
 }
@@ -39,6 +41,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 32px;
+    background-color: #919899;
 }
 
 .hamburger-menu {
@@ -122,6 +125,8 @@ body {
 *          desktop navigation            *
 *****************************************/
 
+
+
 #desktop-nav {
     display: none;
 }
@@ -164,6 +169,10 @@ a:hover {
 /*****************************************
 *                Footer                  *
 *****************************************/
+
+footer {
+    background-color:#919899;
+}
 
 .footer-group-container {
     display: block;
@@ -219,6 +228,7 @@ footer {
 @media screen and (min-width: 750px) {
     #desktop-nav {
         display: flex;
+        background-color:#919899;
     }
 
     #hamburger-nav {
