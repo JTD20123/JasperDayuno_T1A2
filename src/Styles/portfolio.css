@@ -45,3 +45,7 @@
     width: 80px; /* Adjust width as needed */
     height: 16px; /* Adjust height as needed */
 }
+
+.card a:hover {
+    color:white;
+}

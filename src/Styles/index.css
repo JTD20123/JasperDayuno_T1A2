@@ -150,11 +150,11 @@ nav {
 a {
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: grey;
 }
 
 a:hover {
-    color: grey;
+    color: white;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
@@ -185,6 +185,7 @@ ul {
 
 .footer {
     padding: 24px;
+    background-color: #919899;
 }
 
 .footer-col {
@@ -216,7 +217,7 @@ ul {
 }
 
 .footer-col ul li a {
-    font-size: 16px;
+    font-size: 1.5rem;
     text-transform: capitalize;
     color: black;
     font-weight: 300;
@@ -226,8 +227,12 @@ ul {
 }
 
 .footer-col ul li a:hover {
-    color: grey;
-    padding-left: 8px;
+    color: white;
+    padding-left: 2px;
+}
+
+.footer-col ul li p{
+    font-size: 1.5rem;
 }
 
 .copyright p {
