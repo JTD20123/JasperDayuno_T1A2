@@ -6,6 +6,17 @@
     margin-top: 100px;
 }
 
+.page-header {
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images-src-code/heroimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;;
+    color: #f2f6f4;
+    font-size: 30px;
+ }
+
 .card {
     width: 325px;
     background-color: white;
@@ -22,6 +33,10 @@
 
 .card-content{
     padding: 16px;
+}
+
+.card-date {
+    padding: 15px 0;
 }
 
 .card-content h3 {
