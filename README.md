@@ -14,22 +14,21 @@ As a beginner web developer, this portfolio website was created to show my passi
 ## Functionality and features
 
 ### navigation bar
-
 Desktop navigation features a visible menu bar with clear categories, aiding quick navigation. Hamburger navigation condenses the menu into an icon, conserving screen space. Both engage audiences by providing intuitive access to desired content, optimising user experience.
 ![alt text](<Images-documentation/Navigation bar.JPG>)
 ![alt text](Images-documentation/MobileNavigation.JPG)
-### Hero image
 
+### Hero image
 A hero image instantly grabs attention with striking visuals. It sets the tone and captures audience interest, encouraging further exploration. With compelling imagery and clear calls-to-action, it effectively prompts user engagement.
 ![alt text](<Images-documentation/Hero Image.JPG>)
-### Footer Navigation
 
+### Footer Navigation
 Footer navigation contains essential links for easy access to additional information. It provides a seamless browsing experience by offering navigation options at the bottom of each page, enhancing user satisfaction by ensuring comprehensive accessibility.
-![alt text](<Images-documentation/Mobile footer navigation.JPG>)
 ![alt text](<Images-documentation/Desktop Navigation.JPG>)
+![alt text](<Images-documentation/Mobile footer navigation.JPG>)
+
 
 ### Contact Form
-
 A simple, user-friendly interface encourages interaction, promoting engagement by facilitating direct communication. It builds trust and credibility by demonstrating accessibility and responsiveness to user inquiries.
 ![alt text](<Images-documentation/Contact Form.JPG>)
 
@@ -40,9 +39,9 @@ A simple, user-friendly interface encourages interaction, promoting engagement b
 https://github.com/JTD20123/JasperDayuno_T1A2
 
 # Tech Stack
-Html:Provides the structure for web pages.
-CSS: Styles the HTML elements, enhancing visual appeal.
-GitHub: Manages version control and facilitates collaboration on code.
-Netlify: Hosts and deploys Website.
+* Html:Provides the structure for web pages.
+* CSS: Styles the HTML elements, enhancing visual appeal.
+* GitHub: Manages version control and facilitates collaboration on code.
+* Netlify: Hosts and deploys Website.
 
 
