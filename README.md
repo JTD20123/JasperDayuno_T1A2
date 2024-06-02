@@ -15,8 +15,9 @@ As a beginner web developer, this portfolio website was created to show my passi
 
 ### navigation bar
 Desktop navigation features a visible menu bar with clear categories, aiding quick navigation. Hamburger navigation condenses the menu into an icon, conserving screen space. Both engage audiences by providing intuitive access to desired content, optimising user experience.
-![alt text](docs/MobileNavigation.JPG)
 ![alt text](<docs/DesktopNavigation bar.JPG>)
+![alt text](docs/MobileNavigation.JPG)
+
 
 ### Hero image
 A hero image instantly grabs attention with striking visuals. It sets the tone and captures audience interest, encouraging further exploration. With compelling imagery and clear calls-to-action, it effectively prompts user engagement.
