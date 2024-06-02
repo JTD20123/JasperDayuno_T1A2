@@ -1,7 +1,59 @@
-main {
-    display: flex;
-    justify-content: center;
+.page-header {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images-src-code/heroimg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;;
+  color: #f2f6f4;
+  font-size: 30px;
 }
+
+.contactme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    gap: 25px;
+}
+
+
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.details-container h3 {
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.details-container h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: black;
+  height: 2px;
+  box-sizing: border-box;
+  width: 280px;
+}
+
+.details-container a i {
+  display: inline-block;
+  padding: 12px;
+  font-size: 36px;
+  color: black;
+  
+}
+
 
 form {
     margin-top: 16px;
@@ -16,7 +68,7 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: none;
   }
   
   input[type=submit] {
@@ -37,4 +89,17 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
     width: 25%;
+  }
+
+  @media screen and (min-width: 750px) {
+
+    .contactme-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    
+
+
   }
