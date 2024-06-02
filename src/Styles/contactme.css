@@ -88,7 +88,7 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 25%;
+    width: 40%;
   }
 
   @media screen and (min-width: 750px) {
