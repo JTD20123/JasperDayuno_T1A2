@@ -14,7 +14,7 @@
     color: #f2f6f4;
 
     /* background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images-src-code/heroimg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/images-src-code/heroimg.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

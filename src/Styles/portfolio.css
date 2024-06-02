@@ -9,7 +9,7 @@
 .page-header {
     padding: 30px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images-src-code/heroimg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/images-src-code/heroimg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;;
