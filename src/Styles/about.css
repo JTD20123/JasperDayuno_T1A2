@@ -44,6 +44,7 @@
 
 @media (min-width: 768px) {
     .container-background {
-        background-size: 50%, 
+        background-size: 50%;
+ 
     }
 }
